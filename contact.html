@@ -9,22 +9,36 @@
 
 <body>
     <header>
-        <img src="jeff.jpeg" alt="jeff" width="38x38">
-        <nav>
-            <a href="index.html">Homepage</a>
-            <p><a href="contact.html">Contact</a></p>
-            <p><a href="aboutUs.html">AboutUs</a></p>
-            <p><a href="termsAndConditions.html">Terms And Conditions</a></p>
-
-
-        </nav>
-        <div class="profile">
-            <img src="../dangote.jpeg" alt="dangote">
-        </div>
+        <h1>Contact Us</h1>
 
 
     </header>
     <main>
+        <form>
+            <label for="first name">First Name</label><br>
+            <input type="text" name="first name" id="first name" placeholder="Abubakar"><br><br>
+
+            <label for="last name">Last Name</label><br>
+            <input type="text" name="last name" id="last name" placeholder="Alkali"><br><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="" placeholder="abubakaralkali2004@gmail.com"><br><br>
+
+            <label for="gender">Gender</label><br>
+            <select name="gender" id="gender" required>
+                <option disabled selected hidden>select</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select><br><br>
+
+
+            <label for="message">Message</label><br>
+            <textarea name="Message" id="message"></textarea><br><br>
+
+            <button type="submit">send</button>
+
+
+        </form>
 
     </main>
     <footer>
